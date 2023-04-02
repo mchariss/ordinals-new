@@ -133,6 +133,12 @@ body {
     color: #d0d5dd;
 }
 
+.hero {
+    height:90vh;
+    /* background-color: red; */
+    margin-top: 0rem !important;
+}
+
 
 
 .create-btn {
@@ -644,10 +650,31 @@ th span button img {
     margin-top: 13rem !important;
 }
 
+.footer-section-1 {
+    padding-top: 5rem !important;
+    /* margin-bottom: 13rem !important; */
+    /* paddin-top: 13rem !important; */
+}
+
 .footer-content {
     display: flex;
     justify-content: space-between;
 }
+
+.footer-content-1 {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+}
+
+.footer-content-1 .footer-content-left {
+    width: 50%;
+    text-align: left;
+}
+
+.footer
 
 .footer-content-left {
     text-align: left;
@@ -716,6 +743,10 @@ th span button img {
 .footer-input:active {
     outline: none;
     border: 1px solid #42434f;
+}
+
+.collection-section {
+    margin-top: 10rem;
 }
 
 .collections-section-heading h1 {
@@ -906,6 +937,10 @@ th span button img {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
+}
+
+.activity-section {
+    margin-top: 10rem;
 }
 
 .third-table {
@@ -1157,6 +1192,7 @@ th span button img {
     .quick-links,
     .finds-section,
     .footer-section,
+    .footer-section-1,
     .collection-section,
     .activity-section {
         padding-left: 1rem;
@@ -1396,6 +1432,27 @@ th span button img {
     .collection-section-heading-left a:nth-child(2) {
         text-align: center;
     }
+
+    .footer-content-1 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-content-1 .footer-content-left {
+        text-align: center !important;
+        width: 80%;
+    }
+
+    .footer-content-1 .footer-content-left p {
+        text-align: center !important;
+        line-height: 24px !important;
+        margin-top: 2.2rem;
+        margin-bottom: 2.2rem;
+    }
+
+
+
 
 }
 

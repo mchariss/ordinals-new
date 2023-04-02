@@ -908,6 +908,10 @@ th span button img {
     border-radius: 5px;
 }
 
+.activity-section {
+    margin-top: 10rem;
+}
+
 .third-table {
     cursor: pointer;
 }

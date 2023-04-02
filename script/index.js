@@ -5,5 +5,6 @@ let text = document.getElementById('myText2').innerHTML;
       alert('Address copied to clipboard');
     } catch (err) {
     //   console.error('Failed to copy: ', err);
-    }
   }
+}
+
